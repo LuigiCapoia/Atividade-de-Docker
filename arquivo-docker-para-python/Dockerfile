@@ -6,6 +6,6 @@ RUN apt-get update && \
 
 WORKDIR /teste-python
 
-COPY teste.py /app/
+COPY seu_script.py /app/
 
 CMD ["python", "teste1.py"]
